@@ -20,7 +20,7 @@ To run, while in the scripts directory, enter:
 bash update.sh
 ```
 
-## Remove Uneeded Packages
+## Remove Unneeded Packages
 The `remove.sh` script will remove unneeded packages from the pi. This will free up `~700MB` of space on the SD card. 
 ### This script will reboot the pi! 
 ```bash
