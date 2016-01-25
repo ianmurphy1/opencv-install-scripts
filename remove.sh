@@ -8,6 +8,6 @@ sudo apt-get remove --purge libreoffice* -y
 sudo apt-get purge minecraft-pi -y
 sudo apt-get purge -y greenfoot
 
-sudo apt-get clean
-sudo apt-get autoremove
+sudo apt-get clean -y
+sudo apt-get autoremove -y
 sudo reboot
