@@ -4,6 +4,12 @@ echo "Switch to VirtualEnv"
 echo "*************************"
 source ~/.profile
 
+echo "***************************"
+echo "Make Virtual Environment"
+echo "***************************"
+mkvirtualenv cv
+
+
 echo "*************************"
 echo "Installing Numpy"
 echo "*************************"

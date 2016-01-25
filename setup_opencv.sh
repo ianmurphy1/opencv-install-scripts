@@ -30,9 +30,3 @@ echo "****************************"
 echo "export WORKON_HOME=$HOME/.virtualenvs\n
 source /usr/local/bin/virtualenvwrapper.sh" | sudo tee -a ~/.profile
 
-source ~/.profile
-
-echo "***************************"
-echo "Make Virtual Environment"
-echo "***************************"
-mkvirtualenv cv
