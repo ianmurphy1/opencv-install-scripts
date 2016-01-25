@@ -12,7 +12,7 @@ pip install numpy
 echo "*************************"
 echo "Setup CMAKE"
 echo "*************************"
-workoncv
+workon cv
 
 cd ~/opencv-3.0.0/
 mkdir build
