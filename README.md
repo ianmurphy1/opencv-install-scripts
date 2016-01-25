@@ -27,11 +27,12 @@ The `remove.sh` script will remove unneeded packages from the pi. This will free
 bash remove.sh
 ```
 
+## Install Dependencies, OpenCV in one step
 You have a choice now, the `one_step.sh` script will install the dependencies for opencv, as well as download, compile and install opencv with one script.
 
 **Only do this if you have 3 or 4 hours spare, otherwise do it in steps.**
 
-## Install Dependencies, OpenCV in one step
+
 ```bash
 bash one_step.sh
 ```
