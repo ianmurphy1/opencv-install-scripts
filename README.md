@@ -1,13 +1,13 @@
 # OpenCV Install Script
 To get the scripts make sure git is installed, usually is but if not open up a terminal window and enter: 
 
-```bash 
+```shell 
 sudo apt-get install git
 ```
 
 After this grab the repo from github
 
-```bash
+```shell
 git clone https://github.com/ianmurphy1/opencv-install-scripts.git
 cd opencv-install-scripts
 ```
@@ -16,14 +16,14 @@ cd opencv-install-scripts
 The script `update.sh` will get the newest package list and upgrade them and will also update the pi to the latest firmware. 
 ### This script will reboot the pi! 
 To run, while in the scripts directory, enter: 
-```bash
+```shell
 bash update.sh
 ```
 
 ## Remove Unneeded Packages
 The `remove.sh` script will remove unneeded packages from the pi. This will free up `~700MB` of space on the SD card. 
 ### This script will reboot the pi! 
-```bash
+```shell
 bash remove.sh
 ```
 
@@ -33,26 +33,26 @@ You have a choice now, the `one_step.sh` script will install the dependencies fo
 **Only do this if you have 3 or 4 hours spare, otherwise do it in steps.**
 
 
-```bash
+```shell
 bash one_step.sh
 ```
 
 
 ## Install Dependencies
 In the terminal enter:
-```bash
+```shell
 bash install_deps.sh
 ```
 
 ## Download and Setup OpenCV
 In the terminal enter:
-```bash
+```shell
 bash setup_opencv.sh
 ```
 
 ## Compile and Install OpenCV
 In terminal enter:
-```bash
+```shell
 bash install_opencv.sh
 ```
 
