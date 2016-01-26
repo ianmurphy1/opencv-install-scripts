@@ -64,7 +64,7 @@ To test, open a terminal window and enter the following commands.
 source ~/.profile
 workon cv
 python
->>> import python
+>>> import cv2
 >>> cv2.__version__
 ```
 
