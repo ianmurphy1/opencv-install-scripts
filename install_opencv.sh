@@ -12,6 +12,7 @@ mkvirtualenv cv
 
 echo "*************************"
 echo "Installing Numpy"
+echo "This will take a while"
 echo "*************************"
 pip install numpy
 
@@ -31,9 +32,16 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 	-D BUILD_EXAMPLES=ON ..
 
 echo "*************************"
-echo "Compile OpenCV"
+echo "     Compiling OpenCV"
+echo " Grab a cuppa, gonna be a while"
 echo "*************************"
 make -j4
+
+echo "*************************"
+echo "   Installing OpenCV"
+echo "*************************"
+sudo make install
+sudo ldconfig
 
 echo "*************************"
 echo "Create SymLinks"

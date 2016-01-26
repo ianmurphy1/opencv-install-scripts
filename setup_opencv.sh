@@ -27,6 +27,6 @@ sudo rm -rf ~/.cache/pip
 echo "****************************"
 echo "Adding to profile file"
 echo "****************************"
-echo "export WORKON_HOME=$HOME/.virtualenvs\n
+echo "export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh" | sudo tee -a ~/.profile
 
