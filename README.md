@@ -57,3 +57,15 @@ bash install_opencv.sh
 ```
 
 Assuming no errors, you now have OpenCV installed, have fun!
+
+
+To test, open a terminal window and enter the following commands.
+```shell
+source ~/.profile
+workon cv
+python
+>>> import python
+>>> cv2.__version__
+```
+
+It should return `'3.0.0'` meaning opencv has installed correctly.
